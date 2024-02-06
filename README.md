@@ -17,6 +17,11 @@
 | InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214) | unavailable  | 
 | Differentially Private Model Compression  | (NeurIPS, 2022)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2206.01838) | unavailable  | 
 
+### Homomorphic Encryption (HE)
+| Paper | Year |  Arxiv    |     Source      |
+|-------|------|-----------|-----------------|
+| Iron: Private Inference on Transformers  |   (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/64e2449d74f84e5b1a5c96ba7b3d308e-Abstract-Conference.html) |  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/xingpz2008/Iron) | 
+| LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers  |   (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.18396) | unavailable | 
 
 
 ### Secure Multi-Party Computing (SMPC)
