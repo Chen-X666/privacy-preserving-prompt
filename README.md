@@ -1,4 +1,4 @@
-# prompt-privacy-protector
+![image](https://github.com/Chen-X666/prompt-privacy-protector/assets/55039294/819fc6c6-0dd0-44bf-bb78-c6127a543ecb)![image](https://github.com/Chen-X666/prompt-privacy-protector/assets/55039294/79f6db15-ed67-4017-8313-a47fe2de1084)# prompt-privacy-protector
 
 ## Datasets/ Benchmarks
 
@@ -12,8 +12,8 @@
 ### Differential Privacy (DP)
 | Paper | Year |  Arxiv    | Source     |
 |-------|------|-----------|------------|
-| DP-OPT: MAKE LARGE LANGUAGE MODEL YOUR PRIVACY-PRESERVING PROMPT ENGINEER  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.03724) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/VITA-Group/DP-OPT)  | 
-| PRIVACY-PRESERVING IN-CONTEXT LEARNING FOR LARGE LANGUAGE MODELS  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.01639) | unavailable  | 
+| DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.03724) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/VITA-Group/DP-OPT)  | 
+| Privacy-Preserving In-Context Learning For Large Language Models  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.01639) | unavailable  | 
 | InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214) | unavailable  | 
 | Differentially Private Model Compression  | (NeurIPS, 2022)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2206.01838) | unavailable  | 
 
@@ -39,7 +39,7 @@
 | Paper | Year |  Arxiv    | Source     | Method Keyword |
 |-------|------|-----------|------------|----------------|
 | SentinelLMs: Encrypted Input Adaptation and Fine-tuning of Language Models for Private and Secure Inference  |  (AAAI, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.17342) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/abhijitmishra/sentinellm-aaai2024)  | 
-| PRIVATELORA FOR EFFICIENT PRIVACY PRESERVING LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  |
+| Privatelora For Efficient Privacy Preserving LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  |
 | Recovering from Privacy-Preserving Masking with Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.08628) | unavailable  | [MASK] 
 
 ####
