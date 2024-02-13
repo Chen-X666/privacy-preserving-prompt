@@ -1,4 +1,4 @@
-![image](https://github.com/Chen-X666/prompt-privacy-protector/assets/55039294/819fc6c6-0dd0-44bf-bb78-c6127a543ecb)![image](https://github.com/Chen-X666/prompt-privacy-protector/assets/55039294/79f6db15-ed67-4017-8313-a47fe2de1084)# prompt-privacy-protector
+# prompt-privacy-protector
 
 ## Datasets/ Benchmarks
 
