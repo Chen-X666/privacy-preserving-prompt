@@ -16,7 +16,9 @@
 | Privacy-Preserving In-Context Learning For Large Language Models  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.01639) | unavailable  | 
 | InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214) | unavailable  | 
 | Differentially Private Model Compression  | (NeurIPS, 2022)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2206.01838) | unavailable  | 
+| Privacy-Preserving Prompt Tuning for Large Language Model Services  | 2023.05  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.06212) | unavailable  | 
 
+Privacy-Preserving Prompt Tuning for Large Language Model Services
 ### Homomorphic Encryption (HE)
 | Paper | Year |  Arxiv    |     Source      |
 |-------|------|-----------|-----------------|
