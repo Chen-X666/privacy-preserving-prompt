@@ -1,4 +1,4 @@
-# prompt-privacy-protector
+# Privacy-Preserving Prompt Tuning for Large Language Model
 
 ## Datasets/ Benchmarks
 
