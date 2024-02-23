@@ -12,8 +12,10 @@
 ### Prompt Injection Attacks
 | Paper | Year |  Arxiv    | Source     |  Attack Prompt Type  |
 |-------|------|-----------|------------|---------|
+| ⬛️TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models  |  (NeurIPS, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2306.06815) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/UCF-ML-Research/TrojLLM)  | Instruction prompt |
 | ⬛️Ignore Previous Prompt : Attack Techniques For Language Models  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.09527) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agencyenterprise/PromptInject)  | Instruction prompt, In-context learning |
 | ⬜️BadPrompt: Backdoor Attacks on Continuous Prompts  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.14719) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/papersPapers/BadPrompt)  | Instruction prompt|
+| ⬜️PromptAttack: Prompt-based Attack for Language Models via Gradient Search  |  (NLPCC, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2209.01882) | unavailable  | Instruction prompt|
 
 ### Model Reverse Engineering
 
