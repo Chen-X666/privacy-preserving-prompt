@@ -1,10 +1,22 @@
 # Privacy-Preserving Prompt Tuning for Large Language Model
 
+⬜️: white-box 
 
-## Attacker (Prompt Injection Attacks)
+⬛️: black-box
+## Attacker
+
+### Inference Attacks
 | Paper | Year |  Arxiv    | Source     |  Attack Prompt Type  |
 |-------|------|-----------|------------|---------|
-| Ignore Previous Prompt : Attack Techniques For Language Models  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.09527) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agencyenterprise/PromptInject)  | Instruction prompt, In-context learning |
+
+### Prompt Injection Attacks
+| Paper | Year |  Arxiv    | Source     |  Attack Prompt Type  |
+|-------|------|-----------|------------|---------|
+| ⬛️Ignore Previous Prompt : Attack Techniques For Language Models  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.09527) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agencyenterprise/PromptInject)  | Instruction prompt, In-context learning |
+| ⬜️BadPrompt: Backdoor Attacks on Continuous Prompts  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.14719) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/papersPapers/BadPrompt)  | Instruction prompt|
+
+### Model Reverse Engineering
+
 
 ## Protector Methodology
 
