@@ -1,5 +1,11 @@
 # Privacy-Preserving Prompt Tuning for Large Language Model
 
+
+## Attacker (Prompt Injection Attacks)
+| Paper | Year |  Arxiv    | Source     |  Attack Prompt Type  |
+|-------|------|-----------|------------|---------|
+| Ignore Previous Prompt : Attack Techniques For Language Models  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.09527) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agencyenterprise/PromptInject)  | Instruction prompt, In-context learning |
+
 ## Protector Methodology
 
 ### Differential Privacy (DP)
