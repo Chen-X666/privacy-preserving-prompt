@@ -6,16 +6,16 @@
 ## Attacker
 
 ### Inference Attacks
-| Paper | Year |  Arxiv    | Source     |  Attack Prompt Type  |
-|-------|------|-----------|------------|---------|
+| Paper | Year |  Source         |  Attack Prompt Type  |
+|-------|------|-----------------|----------------------|
 
 ### Prompt Injection Attacks
-| Paper | Year |  Arxiv    | Source     |  Attack Prompt Type  |
-|-------|------|-----------|------------|---------|
-| ⬛️TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models  |  (NeurIPS, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2306.06815) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/UCF-ML-Research/TrojLLM)  | Instruction prompt |
-| ⬛️Ignore Previous Prompt : Attack Techniques For Language Models  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.09527) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agencyenterprise/PromptInject)  | Instruction prompt, In-context learning |
-| ⬜️BadPrompt: Backdoor Attacks on Continuous Prompts  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.14719) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/papersPapers/BadPrompt)  | Instruction prompt|
-| ⬜️PromptAttack: Prompt-based Attack for Language Models via Gradient Search  |  (NLPCC, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2209.01882) | unavailable  | Instruction prompt|
+| Paper | Year |   Source              |  Attack Prompt Type  |   Tasks   |
+|-------|------|-----------------------|----------------------|-----------|
+| ⬛️TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models  |  (NeurIPS, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2306.06815) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/UCF-ML-Research/TrojLLM)  | Instruction prompt |
+| ⬛️Ignore Previous Prompt : Attack Techniques For Language Models  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.09527) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agencyenterprise/PromptInject)  | Instruction prompt, In-context learning |
+| ⬜️BadPrompt: Backdoor Attacks on Continuous Prompts  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.14719) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/papersPapers/BadPrompt)  | Instruction prompt|
+| ⬜️PromptAttack: Prompt-based Attack for Language Models via Gradient Search  |  (NLPCC, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2209.01882)  | Instruction prompt |
 
 ### Model Reverse Engineering
 
@@ -23,15 +23,15 @@
 ## Protector Methodology
 
 ### Differential Privacy (DP)
-| Paper | Year |  Arxiv    | Source     |  Tasks  |
-|-------|------|-----------|------------|---------|
-| ⬛️Privacy-Preserving In-Context Learning with Differentially Private Few-Shot Generation  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.11765) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/microsoft/dp-few-shot-generation)  | Classification, Information Extraction | 
-| ⬛️DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.03724) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/VITA-Group/DP-OPT)  | Sentiment Classification |
-| ⬛️Privacy-Preserving In-Context Learning For Large Language Models  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.01639) | unavailable  |  Classification, Document Q&A, Dialog Summarization | 
-| ⬛️InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214) | unavailable  |  Classification, Generation |
-| ⬛️Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models  | (NeurIPS, 2023)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.15594) | unavailable  | Text Classification |
-| ⬛️Locally Differentially Private Document Generation Using Zero Shot Prompting  |  (EMNLP, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-emnlp.566) | [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/SaitejaUtpala/dp_prompt)  | Text Classification | 
-| ⬜️Privacy-Preserving Prompt Tuning for Large Language Model Services  | 2023.05  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.06212) | unavailable  | Sentiment Classification, Document Q&A |
+| Paper | Year |  Source          |  Tasks  |
+|-------|------|------------------|---------|
+| ⬛️Privacy-Preserving In-Context Learning with Differentially Private Few-Shot Generation  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.11765) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/microsoft/dp-few-shot-generation)  | Classification, Information Extraction | 
+| ⬛️DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.03724) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/VITA-Group/DP-OPT)  | Sentiment Classification |
+| ⬛️Privacy-Preserving In-Context Learning For Large Language Models  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.01639)  |  Classification, Document Q&A, Dialog Summarization | 
+| ⬛️InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214)  |  Classification, Generation |
+| ⬛️Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models  | (NeurIPS, 2023)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.15594)  | Text Classification |
+| ⬛️Locally Differentially Private Document Generation Using Zero Shot Prompting  |  (EMNLP, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-emnlp.566) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/SaitejaUtpala/dp_prompt)  | Text Classification | 
+| ⬜️Privacy-Preserving Prompt Tuning for Large Language Model Services  | 2023.05  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.06212)  | Sentiment Classification, Document Q&A |
 
 
 ### Homomorphic Encryption (HE)
