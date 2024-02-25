@@ -37,14 +37,6 @@
 | 🌟⬛️Locally Differentially Private Document Generation Using Zero Shot Prompting  |  (EMNLP, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-emnlp.566) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/SaitejaUtpala/dp_prompt)  | Text Classification | 
 | ⬜️Privacy-Preserving Prompt Tuning for Large Language Model Services  | 2023.05  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.06212)  | Sentiment Classification, Document Q&A |
 
-### Federated Learning (FL)
-| Paper | Year |         Source         |  Tasks  |
-|-------|------|------------------------|---------|
-|  FATE-LLM: A Industrial Grade Federated Learning Framework for Large Language Models  |  (ICASSP, 2023)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.10049)  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/FederatedAI/FATE-LLM)  |
-|  FATE-LLM: A Industrial Grade Federated Learning Framework for Large Language Models  |  2023.10  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.10049)  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/FederatedAI/FATE-LLM)  |
-|  FederatedScope-LLM: A Comprehensive Package for Fine-tuning Large Language Models in Federated Learning  |  2023.09  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.00363)  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alibaba/FederatedScope/tree/llm)  |
-
-
 
 ### Secure Multi-Party Computing (SMPC)
 | Paper | Year |   Source     |    Tasks   | Defence |
@@ -61,14 +53,19 @@
 ### Other Methods
 | Paper | Year |  Source               | Tasks | Method Keyword |
 |-------|------|-----------------------|-------|----------------|
-| SEmojiCrypt: Prompt Encryption for Secure Communication with Large Language Models  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.05868) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agiresearch/EmojiCrypt)  |  Classification | Emoji |
-| SentinelLMs: Encrypted Input Adaptation and Fine-tuning of Language Models for Private and Secure Inference  |  (AAAI, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.17342)  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/abhijitmishra/sentinellm-aaai2024)  | 
-| Privatelora For Efficient Privacy Preserving LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  | | LoRA 
+| ⬛️SEmojiCrypt: Prompt Encryption for Secure Communication with Large Language Models  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.05868) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agiresearch/EmojiCrypt)  |  Classification | Emoji |
+| ⬜️Privatelora For Efficient Privacy Preserving LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  | | LoRA 
 | Recovering from Privacy-Preserving Masking with Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.08628) |  |[MASK] 
 
 ### Survey
 | Paper | Year |  Source               |
 |-------|------|-----------------------|
-A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly | 2023.12 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.02003) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
+Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection | 2023.05 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2302.12173) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
+A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly | 2023.12 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.02003) 
 Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection | 2023.05 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2302.12173) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
 Privacy-Preserving Large Language Models (PPLLMs) | 2023.01 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://www.researchgate.net/publication/372607103_Privacy-Preserving_Large_Language_Models_PPLLMs) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
+
+### Fine-tuning
+| Paper | Year |  Source               | 
+|-------|------|-----------------------|
+| SentinelLMs: Encrypted Input Adaptation and Fine-tuning of Language Models for Private and Secure Inference  |  (AAAI, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.17342)  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/abhijitmishra/sentinellm-aaai2024)  
