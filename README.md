@@ -4,24 +4,31 @@
 | --- | --- | --- | --- |
 | Description | Inspiration | White-box method | Black-box method |
 
-## Attacker
+## Attacker Methodology
 
 ### Membership Inference Attacks (MIA)
-| Paper | Year |  Source         |   Tasks   |
-|-------|------|-----------------|----------------------|
-| 🌟⬛️Do Membership Inference AttacksWork on Large Language Models?  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.07841) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |   | 
+| Paper | Year |  Source         |
+|-------|------|-----------------|
+| 🌟⬛️Do Membership Inference AttacksWork on Large Language Models?  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.07841) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |
+| ⬛️Assessing Privacy Risks in Language Models: A Case Study on Summarization Tasks  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.13291)  |
+| ⬛️Beyond Memorization: Violating Privacy Via Inference with Large Language Models  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.07298) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |
+
 
 ### Prompt Injection Attacks (PIA)
 | Paper | Year |   Source              |  Attack Prompt Type  |   Tasks   |
 |-------|------|-----------------------|----------------------|-----------|
-| 🌟⬛️TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models  |  (NeurIPS, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2306.06815) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/UCF-ML-Research/TrojLLM)  | Instruction prompt | Classification | 
+| ⬛️Effective Prompt Extraction from Language Models  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2307.06865) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://anonymous.4open.science/r/prompt-extraction-83C1)  | Instruction Prompt | Information Extration | 
 | ⬛️Prompt Stealing Attacks Against Large Language Models  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.12959)  | Role-Based Prompt, Direct Prompt, In-Context Prompt | Q&A |
+| 🌟⬛️TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models  |  (NeurIPS, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2306.06815) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/UCF-ML-Research/TrojLLM)  | Instruction prompt | Classification | 
 | 🌟⬛️Ignore Previous Prompt : Attack Techniques For Language Models  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.09527) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agencyenterprise/PromptInject)  | Instruction prompt, In-context learning |
 | 🌟⬜️BadPrompt: Backdoor Attacks on Continuous Prompts  |  (NeurIPS, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2211.14719) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/papersPapers/BadPrompt)  | Instruction prompt|
 | ⬜️PromptAttack: Prompt-based Attack for Language Models via Gradient Search  |  (NLPCC, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2209.01882)  | Instruction prompt |
 
-### Model Reverse Engineering
 
+### Information Extraction
+| Paper | Year |   Source              |  Attack Prompt Type  |   Tasks   |
+|-------|------|-----------------------|----------------------|-----------|
+| ⬜️PromptAttack: Prompt-based Attack for Language Models via Gradient Search  |  (NLPCC, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2209.01882)  | Model Memory |
 
 ## Protector Methodology
 
@@ -57,11 +64,12 @@
 | ⬜️Privatelora For Efficient Privacy Preserving LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  | | LoRA 
 | Recovering from Privacy-Preserving Masking with Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.08628) |  |[MASK] 
 
-### Survey
+### Related Survey
 | Paper | Year |  Source               |
 |-------|------|-----------------------|
-Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection | 2023.05 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2302.12173) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
 A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly | 2023.12 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.02003) 
+Privacy in Large Language Models: Attacks, Defenses and Future Directions | 2023.10 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.10383) 
+Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection | 2023.05 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2302.12173) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
 Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection | 2023.05 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2302.12173) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
 Privacy-Preserving Large Language Models (PPLLMs) | 2023.01 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://www.researchgate.net/publication/372607103_Privacy-Preserving_Large_Language_Models_PPLLMs) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
 
