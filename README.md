@@ -6,7 +6,7 @@
 
 ## Attacker Methodology
 
-<div align="center"><img src="https://github.com/Chen-X666/privacy-preserving-prompt/blob/main/attack_processing.png" height="600px"/></div>
+<div align="center"><img src="https://github.com/Chen-X666/privacy-preserving-prompt/blob/main/attack_processing1.png" height="600px"/></div>
 
 ### Membership Inference Attacks (MIA)
 | Paper | Year |  Source         |
