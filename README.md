@@ -30,7 +30,7 @@
 ### Information Extraction
 | Paper | Year |   Source              |  Attack Prompt Type  |   Tasks   |
 |-------|------|-----------------------|----------------------|-----------|
-| ⬜️PromptAttack: Prompt-based Attack for Language Models via Gradient Search  |  (NLPCC, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2209.01882)  | Model Memory |
+| ⬜️Extracting Training Data from Large Language Models  |  (USENIX Security, 2021)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)  | Model Memory |
 
 ## Protector Methodology
 
