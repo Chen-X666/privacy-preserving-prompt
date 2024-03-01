@@ -8,13 +8,6 @@
 
 <div align="center"><img src="https://github.com/Chen-X666/privacy-preserving-prompt/blob/main/attack_processing.png" height="600px"/></div>
 
-### Membership Inference Attacks (MIA)
-| Paper | Year |  Source         |
-|-------|------|-----------------|
-| 🌟⬛️Do Membership Inference AttacksWork on Large Language Models?  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.07841) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |
-| ⬛️Assessing Privacy Risks in Language Models: A Case Study on Summarization Tasks  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.13291)  |
-| ⬛️Beyond Memorization: Violating Privacy Via Inference with Large Language Models  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.07298) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |
-
 
 ### Prompt Injection Attacks (PIA)
 | Paper | Year |   Source              |  Attack Prompt Type  |   Tasks   |
@@ -27,9 +20,12 @@
 | ⬜️PromptAttack: Prompt-based Attack for Language Models via Gradient Search  |  (NLPCC, 2022)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2209.01882)  | Instruction prompt |
 
 
-### Information Extraction
-| Paper | Year |   Source              |  Attack Prompt Type  |   Tasks   |
-|-------|------|-----------------------|----------------------|-----------|
+### Membership Inference Attacks (MIA)
+| Paper | Year |  Source         |
+|-------|------|-----------------|
+| 🌟⬛️Do Membership Inference AttacksWork on Large Language Models?  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.07841) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |
+| ⬛️Assessing Privacy Risks in Language Models: A Case Study on Summarization Tasks  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.13291)  |
+| ⬛️Beyond Memorization: Violating Privacy Via Inference with Large Language Models  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.07298) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |
 | ⬜️Extracting Training Data from Large Language Models  |  (USENIX Security, 2021)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)  | Model Memory |
 
 ## Protector Methodology
