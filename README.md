@@ -50,24 +50,25 @@
 | ⬜️LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers  |  2023.05   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.18396)  | Classification | Model Inside |
 
 ### Anonymization Techniques
-| Paper | Year |  Source     |  Tasks   | Defence |
-|-------|------|-------------|----------|---------|
-| ⬛️ProPILE: Probing Privacy Leakage in Large Language Models  |  (NeurIPS, 2023)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2307.01881) | PII | ALL?
-| ⬛️Hide and Seek (HaS): A Lightweight Framework for Prompt Privacy Protection  |  2023.09   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.03057)  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alohachen/Hide-and-Seek) | PII | ALL? 
+| Paper | Year |  Source     |  Tasks   | Keywords | 
+|-------|------|-------------|----------|----------|
+| ⬛️SEmojiCrypt: Prompt Encryption for Secure Communication with Large Language Models  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.05868) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agiresearch/EmojiCrypt)  |  Classification | Emoji |
+| ⬛️ProPILE: Probing Privacy Leakage in Large Language Models  |  (NeurIPS, 2023)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2307.01881) | PII | 
+| ⬛️Recovering from Privacy-Preserving Masking with Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.08628) |  |[MASK] 
+| ⬛️Hide and Seek (HaS): A Lightweight Framework for Prompt Privacy Protection  |  2023.09   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.03057)  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alohachen/Hide-and-Seek) | PII | 
+
 
 ### Other Methods
 | Paper | Year |  Source               | Tasks | Method Keyword |
 |-------|------|-----------------------|-------|----------------|
-| ⬛️SEmojiCrypt: Prompt Encryption for Secure Communication with Large Language Models  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.05868) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agiresearch/EmojiCrypt)  |  Classification | Emoji |
-| ⬜️Privatelora For Efficient Privacy Preserving LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  | | LoRA 
-| Recovering from Privacy-Preserving Masking with Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.08628) |  |[MASK] 
+| ⬜️Privatelora For Efficient Privacy Preserving LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  | | LoRA  
 
 ### Related Survey
 | Paper | Year |  Source               |
 |-------|------|-----------------------|
+Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory | (ICLR, 2024) | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs//2310.17884)| 
 A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly | 2023.12 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.02003) 
 Privacy in Large Language Models: Attacks, Defenses and Future Directions | 2023.10 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.10383) 
-Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory | (ICLR, 2024) | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs//2310.17884) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
 Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection | 2023.05 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2302.12173) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
 Privacy-Preserving Large Language Models (PPLLMs) | 2023.01 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://www.researchgate.net/publication/372607103_Privacy-Preserving_Large_Language_Models_PPLLMs) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/greshake/llm-security)  | 
 
