@@ -75,6 +75,7 @@
 ### Related Survey
 | Paper | Year |  Source               |
 |-------|------|-----------------------|
+On Protecting the Data Privacy of Large Language Models (LLMs): A Survey | 2024.03 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2403.05156)| 
 Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory | (ICLR, 2024) | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs//2310.17884)| 
 A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly | 2023.12 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.02003) 
 Privacy in Large Language Models: Attacks, Defenses and Future Directions | 2023.10 | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.10383) 
