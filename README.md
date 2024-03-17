@@ -24,9 +24,10 @@
 | Paper | Year |  Source         |
 |-------|------|-----------------|
 | 🌟⬛️Do Membership Inference AttacksWork on Large Language Models?  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.07841) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |
-| ⬛️Assessing Privacy Risks in Language Models: A Case Study on Summarization Tasks  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.13291)  |
+| ⬜️Language Model Inversion  |  2023.11   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.13647)  | 
+| ⬛️Assessing Privacy Risks in Language Models: A Case Study on Summarization Tasks  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](2310.13291)  |
 | ⬛️Beyond Memorization: Violating Privacy Via Inference with Large Language Models  |  2023.10   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.07298) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](http://github.com/iamgroot42/mimir)  |
-| ⬜️Extracting Training Data from Large Language Models  |  (USENIX Security, 2021)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)  | Model Memory |
+| ⬜️Extracting Training Data from Large Language Models  |  (USENIX Security, 2021)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)  | 
 
 ## Protector Methodology
 
