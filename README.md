@@ -31,46 +31,37 @@
 
 ## Protector Methodology
 
-### Training Inside
-| Paper | Year |   Source     |    Tasks   | Method Keyword |
-|-------|------|--------------|------------|----------------|
-| ⬜️SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for Large Language Models  |  2024.01   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2401.00793)  | Classification, Semantic Similarity, Linguistic Acceptability | Secure Multi-Party Computing (SMPC) |
-| ⬜️LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers  |  2023.05   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.18396)  | Classification | Secure Multi-Party Computing (SMPC) |
-
-### Discrete Prompt
-| Paper | Year |   Source     |    Tasks   | Method Keyword |
-|-------|------|--------------|------------|----------------|
-| 🌟⬛️Locally Differentially Private Document Generation Using Zero Shot Prompting  |  (EMNLP, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-emnlp.566) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/SaitejaUtpala/dp_prompt)  | Text Classification | 
-| ⬜️Privacy-Preserving Prompt Tuning for Large Language Model Services  | 2023.05  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.06212)  | Sentiment Classification, Document Q&A | 
-
-### In-context Learning Prompt
+### Differential Privacy (DP)
 | Paper | Year |  Source          |  Tasks  | Defense |
 |-------|------|------------------|---------|---------|
 | 🌟⬛️Privacy-Preserving In-Context Learning with Differentially Private Few-Shot Generation  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.11765) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/microsoft/dp-few-shot-generation)  | Classification, Information Extraction | 
+| 🌟⬛️DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.03724) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/VITA-Group/DP-OPT)  | Sentiment Classification |
 | 🌟⬛️Privacy-Preserving In-Context Learning For Large Language Models  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.01639)  |  Classification, Document Q&A, Dialog Summarization |
 | ⬛️On the Privacy Risk of In-context Learning  |  (TrustNLP, 2024))   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://trustnlpworkshop.github.io/papers/13.pdf)  |  Classification, Generation |  MIA 
-
-
-
-### Instruction Prompt
-| Paper | Year |  Source          |  Tasks  | Defense |
-|-------|------|------------------|---------|---------|
-| 🌟⬛️DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.03724) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/VITA-Group/DP-OPT)  | Sentiment Classification |
+| ⬛️InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/mengtong0110/InferDPT) |  Classification, Generation |
 | 🌟⬛️⬜️Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models  | (NeurIPS, 2023)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.15594)  | Classification |
+| 🌟⬛️Locally Differentially Private Document Generation Using Zero Shot Prompting  |  (EMNLP, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-emnlp.566) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/SaitejaUtpala/dp_prompt)  | Text Classification | 
+| ⬜️Privacy-Preserving Prompt Tuning for Large Language Model Services  | 2023.05  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.06212)  | Sentiment Classification, Document Q&A |
 
-### Chain-of-Thought Prompt
+
+### Secure Multi-Party Computing (SMPC)
 | Paper | Year |   Source     |    Tasks   | Defence |
 |-------|------|--------------|------------|---------|
-| ⬛️InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/mengtong0110/InferDPT) |  Classification, Generation |
+| ⬜️SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for Large Language Models  |  2024.01   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2401.00793)  | Classification, Semantic Similarity, Linguistic Acceptability | Model Inside |
+| ⬜️LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers  |  2023.05   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.18396)  | Classification | Model Inside |
 
-
-### Other Techniques
+### Anonymization Techniques
 | Paper | Year |  Source     |  Tasks   | Keywords | 
 |-------|------|-------------|----------|----------|
 | ⬛️SEmojiCrypt: Prompt Encryption for Secure Communication with Large Language Models  |  2024.02   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2402.05868) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/agiresearch/EmojiCrypt)  |  Classification | Emoji |
 | ⬛️ProPILE: Probing Privacy Leakage in Large Language Models  |  (NeurIPS, 2023)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2307.01881) | PII | 
 | ⬛️Recovering from Privacy-Preserving Masking with Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.08628) |  |[MASK] 
 | ⬛️Hide and Seek (HaS): A Lightweight Framework for Prompt Privacy Protection  |  2023.09   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.03057)  [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alohachen/Hide-and-Seek) | PII | 
+
+
+### Other Methods
+| Paper | Year |  Source               | Tasks | Method Keyword |
+|-------|------|-----------------------|-------|----------------|
 | ⬜️Privatelora For Efficient Privacy Preserving LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  | | LoRA  
 
 ### Related Survey
