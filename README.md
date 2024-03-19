@@ -38,24 +38,20 @@
 | 🌟⬛️DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2312.03724) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/VITA-Group/DP-OPT)  | Sentiment Classification |
 | 🌟⬛️Privacy-Preserving In-Context Learning For Large Language Models  |  (ICLR, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.01639)  |  Classification, Document Q&A, Dialog Summarization |
 | ⬛️On the Privacy Risk of In-context Learning  |  (TrustNLP, 2024))   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://trustnlpworkshop.github.io/papers/13.pdf)  |  Classification, Generation |  MIA 
+| ⬛️A Customized Text Sanitization Mechanism with Differential Privacy  |  (ACL, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-acl.355) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/sai4july/CusText)   |  Classification, Generation |
 | 🌟⬛️⬜️Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models  | (NeurIPS, 2023)  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.15594)  | Classification |
 | 🌟⬛️Locally Differentially Private Document Generation Using Zero Shot Prompting  |  (EMNLP, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-emnlp.566) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/SaitejaUtpala/dp_prompt)  | Text Classification | 
-| ⬜️Privacy-Preserving Prompt Tuning for Large Language Model Services  | 2023.05  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.06212)  | Sentiment Classification, Document Q&A |
-
-### Text Sanitization 
-| Paper | Year |  Source          |  Tasks  | Defense |
-|-------|------|------------------|---------|---------|
-| ⬛️InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/mengtong0110/InferDPT) |  Classification, Generation |
-| ⬜️Ciphergpt: Secure two-party gpt inference  |  (Crypto, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://eprint.iacr.org/2023/1147)  |  Classification |
-| ⬜️TextObfuscator: Making Pre-trained Language Model a Privacy Protector via Obfuscating Word Representations  |  (ACL, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-acl.355)  |  Classification |
-| ⬛️A Customized Text Sanitization Mechanism with Differential Privacy  |  (ACL, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-acl.355)  |  Classification, Generation |
 | ⬜️DP-forward: Fine-tuning and inference on language models with differential privacy in forward pass  |  (SIGSAC, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2309.06746)  |  Classification |
+| ⬛️InferDPT: Privacy-preserving Inference for Black-box Large Language Models  |  2023.12   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2310.12214) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/mengtong0110/InferDPT) |  Classification, Generation |
+| ⬜️Privacy-Preserving Prompt Tuning for Large Language Model Services  | 2023.05  | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.06212)  | Sentiment Classification, Document Q&A |
 | ⬛️Differential Privacy for Text Analytics via Natural Text Sanitization  |  (ACL-IJCNLP, 2021)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2021.findings-acl.337) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/xiangyue9607/SanText) |  Classification |
+
 
 
 ### Secure Multi-Party Computing (SMPC)
 | Paper | Year |   Source     |    Tasks   | Defence |
 |-------|------|--------------|------------|---------|
+| ⬜️Ciphergpt: Secure two-party gpt inference  |  (Crypto, 2024)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://eprint.iacr.org/2023/1147)  |  Classification |
 | ⬜️SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for Large Language Models  |  2024.01   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2401.00793)  | Classification, Semantic Similarity, Linguistic Acceptability | Model Inside |
 | ⬜️LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers  |  2023.05   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2305.18396)  | Classification | Model Inside |
 
@@ -74,6 +70,7 @@
 | Paper | Year |  Source               | Tasks | Method Keyword |
 |-------|------|-----------------------|-------|----------------|
 | ⬜️Privatelora For Efficient Privacy Preserving LLM  |  (CoRR, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://arxiv.org/abs/2311.14030) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/alipay/private_llm)  | | LoRA  
+| ⬜️TextObfuscator: Making Pre-trained Language Model a Privacy Protector via Obfuscating Word Representations  |  (ACL, 2023)   | [![Static Badge](https://img.shields.io/badge/paper-%23B31B1B?logo=arxiv&labelColor=grey)](https://aclanthology.org/2023.findings-acl.337) [![Static Badge](https://img.shields.io/badge/code-black?logo=github)](https://github.com/xzhou20/TextObfuscator) |  Classification |
 
 ### Related Survey
 | Paper | Year |  Source               |
